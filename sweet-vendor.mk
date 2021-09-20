@@ -7,7 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
-    vendor/xiaomi/sweet/proprietary/system/lib/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcameraservice.so \
     vendor/xiaomi/sweet/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/sweet/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/xiaomi/sweet/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
@@ -80,9 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/system_ext/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfduibcsrcinterface.so \
     vendor/xiaomi/sweet/proprietary/system_ext/lib/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libldacBT_abr.so \
     vendor/xiaomi/sweet/proprietary/system_ext/lib/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libldacBT_enc.so \
-    vendor/xiaomi/sweet/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@1.0.so \
-    vendor/xiaomi/sweet/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@2.0.so \
-    vendor/xiaomi/sweet/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@3.5.so \
     vendor/xiaomi/sweet/proprietary/system_ext/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/sweet/proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/xiaomi/sweet/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
